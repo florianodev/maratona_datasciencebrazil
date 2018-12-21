@@ -1,0 +1,5 @@
+print("Digite um número")
+num1= input()
+print("Digite outro número")
+num2=input()
+print("A soma destes números é:",int(num1)+int(num2))
