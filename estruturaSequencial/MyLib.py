@@ -1,7 +1,7 @@
 
 #***************************************************
 
-def entradaInt(descErro="O valor digitado não é um número INTEIRO",legenda="Digite um número inteiro:"):
+def entradaInt(legenda="Digite um número inteiro:",descErro="O valor digitado não é um número INTEIRO"):
 
     while True:
         try:
@@ -15,7 +15,7 @@ def entradaInt(descErro="O valor digitado não é um número INTEIRO",legenda="D
 
 #***************************************************
 
-def entradaFloat(descErro="O valor digitado não é um número REAL",legenda="Digite um número real:"):
+def entradaFloat(legenda="Digite um número real:",descErro="O valor digitado não é um número REAL"):
 
     while True:
         try:
