@@ -1,5 +1,7 @@
-print("Digite o valor em metros")
-med= input()
+import module.MyLib as ml
+
+
+med = ml.entradaFloat("Digite o valor em metros: ")
 
 medida=0
 try:

@@ -1,7 +1,7 @@
 import math
+import module.MyLib as ml
 
-print("Digite o valor do raio")
-raio= input()
+raio= ml.entradaFloat("Digite o valor do raio: ")
 
 area=0
 try:

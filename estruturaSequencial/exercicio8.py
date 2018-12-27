@@ -1,9 +1,8 @@
+import module.MyLib as ml
 
 
-print("Digite quanto você ganha por hora?")
-hh = input()
-print("Digite quantidade de horas trabalhadas")
-ht=input()
+hh = ml.entradaFloat("Digite quanto você ganha por hora?: ")
+ht=ml.entradaInt("Digite quantidade de horas trabalhadas: ")
 
 try:
     hh=float(hh)

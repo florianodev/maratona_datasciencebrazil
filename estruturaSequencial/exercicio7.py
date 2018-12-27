@@ -1,7 +1,7 @@
-import math
+import module.MyLib as ml
 
-print("Digite o valor do lado do quadrado")
-lado= input()
+
+lado= ml.entradaFloat("Digite o valor do lado do quadrado: ")
 
 area=0
 try:
